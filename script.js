@@ -1,11 +1,22 @@
 const postalCodeData = [
     //ESPOO
     { name: 'Otaniemi', codes: ['02100', '02110', '02130', '02150'] },
-    { name: 'Olari', codes: ['02170', '02210', '02250', ''] },
     { name: 'Lepuski', codes: ['02140', '02600', '02650', '02680']},
+    { name: 'Olari', codes: ['02170', '02210', '02250', ''] },
+    { name: 'ESPOO', codes: ['', '', '', ''] },
+    { name: 'ESPOO', codes: ['', '', '', ''] },
+    { name: 'ESPOO', codes: ['', '', '', ''] },
+    { name: 'ESPOO', codes: ['', '', '', ''] },
+    { name: 'ESPOO', codes: ['', '', '', ''] },
+    
     //HELSINKI
-    { name: 'Helsinki', codes: ['00100', '00120', '00130'] },
-    { name: 'Kallio', codes: ['00500', '00520', '00530'] },
+    { name: 'Ruoholahti', codes: ['', '', ''] },
+    { name: 'Punavuori', codes: ['', '', ''] },
+    { name: 'Helsinki', codes: ['', '', ''] },
+    { name: 'Helsinki', codes: ['', '', ''] },
+    { name: 'Helsinki', codes: ['', '', ''] },
+    { name: 'Helsinki', codes: ['', '', ''] },
+    { name: 'Helsinki', codes: ['', '', ''] },
 
   ];
   const form = document.querySelector('form');
