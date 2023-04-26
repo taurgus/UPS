@@ -18,6 +18,17 @@ h1{
     width: 80%;
     max-width: 400px; 
 } 
+#input label{
+    margin-bottom: 1.0rem;
+}
+#input input [type="text"] {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-weight: bold;
+  }
 
 #result{
     display: flex;
