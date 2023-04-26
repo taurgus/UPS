@@ -3,12 +3,12 @@ const postalCodeData = [
     { name: 'Otaniemi', codes: ['02100', '02110', '02130', '02150'] },
     { name: 'Lepuski', codes: ['02140', '02600', '02650', '02680']},
     { name: 'Olari', codes: ['02170', '02210', '02250', ''] },
+    { name: 'Kauniainen', codes: ['', '', '', ''] },
+    { name: 'Tammisto', codes: ['', '', '', ''] },
+    { name: 'Tikkurila', codes: ['', '', '', ''] },
     { name: 'ESPOO', codes: ['', '', '', ''] },
     { name: 'ESPOO', codes: ['', '', '', ''] },
-    { name: 'ESPOO', codes: ['', '', '', ''] },
-    { name: 'ESPOO', codes: ['', '', '', ''] },
-    { name: 'ESPOO', codes: ['', '', '', ''] },
-    
+
     //HELSINKI
     { name: 'Ruoholahti', codes: ['', '', ''] },
     { name: 'Punavuori', codes: ['', '', ''] },
@@ -17,6 +17,12 @@ const postalCodeData = [
     { name: 'Helsinki', codes: ['', '', ''] },
     { name: 'Helsinki', codes: ['', '', ''] },
     { name: 'Helsinki', codes: ['', '', ''] },
+
+    //NETLUX
+    { name: 'Netlux Espoon keskus', codes: ['', '', ''] },
+    { name: 'Netlux Matinkylä', codes: ['', '', ''] },
+    { name: 'Netlux Juvanmalmi', codes: ['', '', ''] },
+    { name: 'Netlux ', codes: ['', '', ''] },
 
   ];
   const form = document.querySelector('form');
@@ -33,7 +39,7 @@ const postalCodeData = [
       }
     }
     if (placeName) {
-      resultDiv.textContent = `${placeName}.`;
+      resultDiv.textContent = `${placeName}`;
     } else {
       resultDiv.textContent = `Anna oikea postari tai opettele kirjoittamaan!`;
     }
