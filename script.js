@@ -20,9 +20,9 @@ const postalCodeData = [
 
     //NETLUX
     { name: 'Netlux Espoon keskus', codes: ['', '', ''] },
-    { name: 'Netlux Matinkylä', codes: ['', '', ''] },
+    { name: 'Netlux Matinkylä', codes: ['02230', '02240', '02270'] },
     { name: 'Netlux Juvanmalmi', codes: ['', '', ''] },
-    { name: 'Netlux ', codes: ['', '', ''] },
+    { name: 'Netlux Kivenlahti', codes: ['02260', '02300', '02320'] },
 
   ];
   const form = document.querySelector('form');
