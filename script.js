@@ -1,8 +1,8 @@
 const postalCodeData = [
     //ESPOO
     { name: 'Otaniemi', codes: ['02100', '02110', '02130', '02150'] },
-    { name: 'Olari', codes: ['02210', '02250', ''] },
-
+    { name: 'Olari', codes: ['02170', '02210', '02250', ''] },
+    { name: 'Lepuski', codes: ['02140', '02600', '02650', '02680']},
     //HELSINKI
     { name: 'Helsinki', codes: ['00100', '00120', '00130'] },
     { name: 'Kallio', codes: ['00500', '00520', '00530'] },
@@ -24,6 +24,6 @@ const postalCodeData = [
     if (placeName) {
       resultDiv.textContent = `${placeName}.`;
     } else {
-      resultDiv.textContent = `Opettele kirjoittamaan ${postalCode}.`;
+      resultDiv.textContent = `Anna oikea postari tai opettele kirjoittamaan!`;
     }
   });

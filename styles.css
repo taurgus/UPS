@@ -30,6 +30,21 @@ h1{
     font-weight: bold;
   }
 
+
+#input button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+#input button[type="submit"]:hover {
+    background-color: #014d9e;
+  }
+
 #result{
     display: flex;
     flex-direction: column;
