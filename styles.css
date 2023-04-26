@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    margin: auto;
+    color: #000000;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    color: #644117;
+  }
+
+#input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+    width: 80%;
+    max-width: 400px; 
+} 
+
+#result{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    MARGIN: auto;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    background-color: #644117;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 80%;
+    max-width: 400px;
+    border: solid;
+    border-color: #000000;
+    }
+#result:empty{
+    border: none;
+    background-color: transparent;
+}

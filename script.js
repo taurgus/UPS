@@ -11,5 +11,5 @@ const postalCodeData = {
     event.preventDefault();
     const postalCode = document.querySelector('#postalCode').value;
     const placeName = postalCodeData[postalCode];
-    resultDiv.textContent = `${postalCode} menee autoon ${placeName}.`;
+    resultDiv.textContent = `${placeName}`;
   });
